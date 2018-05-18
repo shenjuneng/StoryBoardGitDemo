@@ -109,6 +109,8 @@
 				9F28578720AE74BC0017DFAB /* Demo2Group1VC1.m */,
 			);
 			path = "示例2文件夹1";
+            sourceTree = "<group>";
+        };
 		9F28578120AE736A0017DFAB /* 示例1文件夹1 */ = {
 			isa = PBXGroup;
 			children = (
