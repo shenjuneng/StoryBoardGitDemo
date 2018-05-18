@@ -1,18 +1,18 @@
 //
-//  Demo1VC2.m
+//  Demo2ContactVC.m
 //  StoryBoardGitDemo
 //
 //  Created by 沈骏 on 2018/5/17.
 //  Copyright © 2018年 沈骏. All rights reserved.
 //
 
-#import "Demo1VC2.h"
+#import "Demo2ContactVC.h"
 
-@interface Demo1VC2 ()
+@interface Demo2ContactVC ()
 
 @end
 
-@implementation Demo1VC2
+@implementation Demo2ContactVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-// 
 /*
 #pragma mark - Navigation
 

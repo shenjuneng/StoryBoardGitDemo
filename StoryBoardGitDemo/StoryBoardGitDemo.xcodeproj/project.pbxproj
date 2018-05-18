@@ -12,6 +12,7 @@
 		9F9B74C220AD7BD700A29357 /* Demo1VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74C120AD7BD700A29357 /* Demo1VC2.m */; };
 		9F9B74CB20AD7D4F00A29357 /* Demo2VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74C920AD7D4F00A29357 /* Demo2VC2.m */; };
 		9F9B74CF20AD7D8300A29357 /* Demo1HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74CE20AD7D8300A29357 /* Demo1HomeVC.m */; };
+        9F9B74D320AD7DFD00A29357 /* Demo2ContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74D220AD7DFD00A29357 /* Demo2ContactVC.m */; };
 		9FDCB12B20ABBF4B00CCFFAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDCB12A20ABBF4B00CCFFAF /* AppDelegate.m */; };
 		9FDCB12E20ABBF4B00CCFFAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDCB12D20ABBF4B00CCFFAF /* ViewController.m */; };
 		9FDCB13120ABBF4B00CCFFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDCB12F20ABBF4B00CCFFAF /* Main.storyboard */; };
@@ -50,6 +51,8 @@
 		9F9B74CA20AD7D4F00A29357 /* Demo2VC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2VC2.h; sourceTree = "<group>"; };
 		9F9B74CD20AD7D8300A29357 /* Demo1HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1HomeVC.h; sourceTree = "<group>"; };
 		9F9B74CE20AD7D8300A29357 /* Demo1HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1HomeVC.m; sourceTree = "<group>"; };
+        9F9B74D120AD7DFD00A29357 /* Demo2ContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2ContactVC.h; sourceTree = "<group>"; };
+		9F9B74D220AD7DFD00A29357 /* Demo2ContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ContactVC.m; sourceTree = "<group>"; };
 		9FDCB12620ABBF4B00CCFFAF /* StoryBoardGitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardGitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDCB12920ABBF4B00CCFFAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FDCB12A20ABBF4B00CCFFAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +105,16 @@
 			path = "首页";
 			sourceTree = "<group>";
 		};
+
+        9F9B74D020AD7DC300A29357 /* 通讯录 */ = {
+        isa = PBXGroup;
+        children = (
+            9F9B74D120AD7DFD00A29357 /* Demo2ContactVC.h */,
+            9F9B74D220AD7DFD00A29357 /* Demo2ContactVC.m */,
+        );
+            path = "通讯录";
+            sourceTree = "<group>";
+        };
 		9FDCB11D20ABBF4B00CCFFAF = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +151,7 @@
 				9F9B74CA20AD7D4F00A29357 /* Demo2VC2.h */,
 				9F9B74C920AD7D4F00A29357 /* Demo2VC2.m */,
 				9F9B74CC20AD7D5800A29357 /* 首页 */,
+				9F9B74D020AD7DC300A29357 /* 通讯录 */,
 				9FDCB12F20ABBF4B00CCFFAF /* Main.storyboard */,
 				9FDCB13220ABBF4D00CCFFAF /* Assets.xcassets */,
 				9FDCB13420ABBF4D00CCFFAF /* LaunchScreen.storyboard */,
@@ -303,6 +317,7 @@
 				9FDCB13920ABBF4D00CCFFAF /* main.m in Sources */,
 				9FDCB12B20ABBF4B00CCFFAF /* AppDelegate.m in Sources */,
 				9F9B74CB20AD7D4F00A29357 /* Demo2VC2.m in Sources */,
+				9F9B74D320AD7DFD00A29357 /* Demo2ContactVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
