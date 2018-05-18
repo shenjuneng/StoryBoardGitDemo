@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F28578820AE74BC0017DFAB /* Demo2Group1VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F28578720AE74BC0017DFAB /* Demo2Group1VC1.m */; };
+		9F28578420AE73BB0017DFAB /* Demo1Group1VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F28578320AE73BB0017DFAB /* Demo1Group1VC1.m */; };
 		9F9B74B620AD73ED00A29357 /* Demo1VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74B520AD73ED00A29357 /* Demo1VC1.m */; };
 		9F9B74BF20AD776B00A29357 /* Demo2VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74BE20AD776B00A29357 /* Demo2VC1.m */; };
 		9F9B74C220AD7BD700A29357 /* Demo1VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74C120AD7BD700A29357 /* Demo1VC2.m */; };
@@ -44,6 +45,8 @@
 /* Begin PBXFileReference section */
 		9F28578620AE74BC0017DFAB /* Demo2Group1VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2Group1VC1.h; sourceTree = "<group>"; };
 		9F28578720AE74BC0017DFAB /* Demo2Group1VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2Group1VC1.m; sourceTree = "<group>"; };
+		9F28578220AE73BB0017DFAB /* Demo1Group1VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1Group1VC1.h; sourceTree = "<group>"; };
+		9F28578320AE73BB0017DFAB /* Demo1Group1VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1Group1VC1.m; sourceTree = "<group>"; };
 		9F9B74B420AD73ED00A29357 /* Demo1VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1VC1.h; sourceTree = "<group>"; };
 		9F9B74B520AD73ED00A29357 /* Demo1VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1VC1.m; sourceTree = "<group>"; };
 		9F9B74BD20AD776B00A29357 /* Demo2VC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2VC1.h; sourceTree = "<group>"; };
@@ -106,6 +109,13 @@
 				9F28578720AE74BC0017DFAB /* Demo2Group1VC1.m */,
 			);
 			path = "示例2文件夹1";
+		9F28578120AE736A0017DFAB /* 示例1文件夹1 */ = {
+			isa = PBXGroup;
+			children = (
+				9F28578220AE73BB0017DFAB /* Demo1Group1VC1.h */,
+				9F28578320AE73BB0017DFAB /* Demo1Group1VC1.m */,
+			);
+			path = "示例1文件夹1";
 			sourceTree = "<group>";
 		};
 		9F9B74CC20AD7D5800A29357 /* 首页 */ = {
@@ -162,6 +172,7 @@
 				9F9B74CA20AD7D4F00A29357 /* Demo2VC2.h */,
 				9F9B74C920AD7D4F00A29357 /* Demo2VC2.m */,
 				9F28578520AE747A0017DFAB /* 示例2文件夹1 */,
+				9F28578120AE736A0017DFAB /* 示例1文件夹1 */,
 				9F9B74CC20AD7D5800A29357 /* 首页 */,
 				9F9B74D020AD7DC300A29357 /* 通讯录 */,
 				9FDCB12F20ABBF4B00CCFFAF /* Main.storyboard */,
@@ -322,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F9B74CF20AD7D8300A29357 /* Demo1HomeVC.m in Sources */,
+				9F28578420AE73BB0017DFAB /* Demo1Group1VC1.m in Sources */,
 				9F9B74C220AD7BD700A29357 /* Demo1VC2.m in Sources */,
 				9FDCB12E20ABBF4B00CCFFAF /* ViewController.m in Sources */,
 				9F9B74BF20AD776B00A29357 /* Demo2VC1.m in Sources */,
