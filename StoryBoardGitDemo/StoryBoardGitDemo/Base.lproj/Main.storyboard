@@ -10,6 +10,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--clock-->
+        <scene sceneID="Kv4-f9-OHe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="clock" id="A23-O6-aD3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lqh-iV-MQA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1598" y="-396"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -18,35 +26,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rzZ-Uu-aC1">
-                                <rect key="frame" x="37" y="167" width="300" height="300"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEV-dL-Rf9">
+                                <rect key="frame" x="24" y="87" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="时" translatesAutoresizingMaskIntoConstraints="NO" id="eoW-tl-pzq">
-                                        <rect key="frame" x="141" y="103" width="18" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="分" translatesAutoresizingMaskIntoConstraints="NO" id="M1e-cn-ykT">
-                                        <rect key="frame" x="149" y="123" width="10" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="秒" translatesAutoresizingMaskIntoConstraints="NO" id="2ig-Os-zSC">
-                                        <rect key="frame" x="235" y="123" width="7" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99429339169999997" green="0.93797445300000004" blue="0.57498890160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
+                                <state key="normal" title="时钟"/>
+                                <connections>
+                                    <segue destination="A23-O6-aD3" kind="show" id="YAQ-Ug-deq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="D5A-3e-Dnh"/>
-                    <connections>
-                        <outlet property="hourHand" destination="eoW-tl-pzq" id="AIm-M3-1To"/>
-                        <outlet property="minuteHand" destination="M1e-cn-ykT" id="NlR-KA-bCq"/>
-                        <outlet property="secondHand" destination="2ig-Os-zSC" id="XLK-Yh-AUW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,9 +63,4 @@
             <point key="canvasLocation" x="198" y="32"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="分" width="24" height="332"/>
-        <image name="时" width="84" height="296"/>
-        <image name="秒" width="12" height="480"/>
-    </resources>
 </document>
