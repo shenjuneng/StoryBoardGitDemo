@@ -92,12 +92,21 @@
             CGPoint P1 = CGPointMake(p1x, p1y);
             CGPoint P2 = CGPointMake(p2x, p2y);
             
-            CGContextMoveToPoint(ctx, P1.x, P1.y);
-            CGContextAddLineToPoint(ctx, P2.x, P2.y);
-            CGContextSetStrokeColorWithColor(ctx, graduationColor.CGColor);
-            CGContextSetLineWidth(ctx, graduationWidth);
-            CGContextSetAlpha(ctx, graduationAlpha);
-            CGContextStrokePath(ctx);
+//            CGContextMoveToPoint(ctx, P1.x, P1.y);
+//            CGContextAddLineToPoint(ctx, P2.x, P2.y);
+//            CGContextSetStrokeColorWithColor(ctx, graduationColor.CGColor);
+//            CGContextSetLineWidth(ctx, graduationWidth);
+//            CGContextSetAlpha(ctx, graduationAlpha);
+//            CGContextStrokePath(ctx);
+            CAShapeLayer  *shapeLayer = [CAShapeLayer layer];
+            UIBezierPath *path1 = [UIBezierPath bezierPath];
+            shapeLayer.path = path1.CGPath;
+            [path1 setLineWidth:graduationWidth];
+            [path1 moveToPoint:P1];
+            [path1 addLineToPoint:P2];
+            path1.lineCapStyle = kCGLineCapSquare;
+            [graduationColor set];
+            [path1 strokeWithBlendMode:kCGBlendModeNormal alpha:graduationAlpha];
         }
     }
 }

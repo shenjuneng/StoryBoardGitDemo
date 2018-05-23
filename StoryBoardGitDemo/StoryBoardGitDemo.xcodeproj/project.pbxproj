@@ -15,9 +15,12 @@
 		9F9B74CB20AD7D4F00A29357 /* Demo2VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74C920AD7D4F00A29357 /* Demo2VC2.m */; };
 		9F9B74CF20AD7D8300A29357 /* Demo1HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74CE20AD7D8300A29357 /* Demo1HomeVC.m */; };
 		9F9B74D320AD7DFD00A29357 /* Demo2ContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B74D220AD7DFD00A29357 /* Demo2ContactVC.m */; };
+		9FA397AA20B4FCE50065C372 /* GrandientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA397A920B4FCE50065C372 /* GrandientVC.m */; };
+		9FA397AD20B510A20065C372 /* EmitterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA397AC20B510A20065C372 /* EmitterVC.m */; };
 		9FBACCAE20B3BD4B0098522A /* clock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBACCAD20B3BD4B0098522A /* clock.storyboard */; };
 		9FBACCB120B3BD5F0098522A /* clockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBACCB020B3BD5F0098522A /* clockVC.m */; };
 		9FBACCB520B3BEC20098522A /* SJClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBACCB420B3BEC20098522A /* SJClockView.m */; };
+		9FBACCB820B3FC300098522A /* SJClockHourHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBACCB720B3FC300098522A /* SJClockHourHand.m */; };
 		9FDCB12B20ABBF4B00CCFFAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDCB12A20ABBF4B00CCFFAF /* AppDelegate.m */; };
 		9FDCB12E20ABBF4B00CCFFAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDCB12D20ABBF4B00CCFFAF /* ViewController.m */; };
 		9FDCB13120ABBF4B00CCFFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDCB12F20ABBF4B00CCFFAF /* Main.storyboard */; };
@@ -62,11 +65,17 @@
 		9F9B74CE20AD7D8300A29357 /* Demo1HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1HomeVC.m; sourceTree = "<group>"; };
 		9F9B74D120AD7DFD00A29357 /* Demo2ContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2ContactVC.h; sourceTree = "<group>"; };
 		9F9B74D220AD7DFD00A29357 /* Demo2ContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ContactVC.m; sourceTree = "<group>"; };
+		9FA397A820B4FCE50065C372 /* GrandientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrandientVC.h; sourceTree = "<group>"; };
+		9FA397A920B4FCE50065C372 /* GrandientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrandientVC.m; sourceTree = "<group>"; };
+		9FA397AB20B510A20065C372 /* EmitterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmitterVC.h; sourceTree = "<group>"; };
+		9FA397AC20B510A20065C372 /* EmitterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmitterVC.m; sourceTree = "<group>"; };
 		9FBACCAD20B3BD4B0098522A /* clock.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = clock.storyboard; sourceTree = "<group>"; };
 		9FBACCAF20B3BD5F0098522A /* clockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clockVC.h; sourceTree = "<group>"; };
 		9FBACCB020B3BD5F0098522A /* clockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clockVC.m; sourceTree = "<group>"; };
 		9FBACCB320B3BEC20098522A /* SJClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJClockView.h; sourceTree = "<group>"; };
 		9FBACCB420B3BEC20098522A /* SJClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJClockView.m; sourceTree = "<group>"; };
+		9FBACCB620B3FC300098522A /* SJClockHourHand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJClockHourHand.h; sourceTree = "<group>"; };
+		9FBACCB720B3FC300098522A /* SJClockHourHand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJClockHourHand.m; sourceTree = "<group>"; };
 		9FDCB12620ABBF4B00CCFFAF /* StoryBoardGitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardGitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDCB12920ABBF4B00CCFFAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FDCB12A20ABBF4B00CCFFAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -153,6 +162,10 @@
 				9FBACCAD20B3BD4B0098522A /* clock.storyboard */,
 				9FBACCAF20B3BD5F0098522A /* clockVC.h */,
 				9FBACCB020B3BD5F0098522A /* clockVC.m */,
+				9FA397A820B4FCE50065C372 /* GrandientVC.h */,
+				9FA397A920B4FCE50065C372 /* GrandientVC.m */,
+				9FA397AB20B510A20065C372 /* EmitterVC.h */,
+				9FA397AC20B510A20065C372 /* EmitterVC.m */,
 			);
 			path = "时钟";
 			sourceTree = "<group>";
@@ -162,6 +175,8 @@
 			children = (
 				9FBACCB320B3BEC20098522A /* SJClockView.h */,
 				9FBACCB420B3BEC20098522A /* SJClockView.m */,
+				9FBACCB620B3FC300098522A /* SJClockHourHand.h */,
+				9FBACCB720B3FC300098522A /* SJClockHourHand.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -368,14 +383,17 @@
 				9F9B74CF20AD7D8300A29357 /* Demo1HomeVC.m in Sources */,
 				9F28578420AE73BB0017DFAB /* Demo1Group1VC1.m in Sources */,
 				9F9B74C220AD7BD700A29357 /* Demo1VC2.m in Sources */,
+				9FA397AA20B4FCE50065C372 /* GrandientVC.m in Sources */,
 				9FDCB12E20ABBF4B00CCFFAF /* ViewController.m in Sources */,
 				9F9B74BF20AD776B00A29357 /* Demo2VC1.m in Sources */,
 				9F28578820AE74BC0017DFAB /* Demo2Group1VC1.m in Sources */,
 				9F9B74B620AD73ED00A29357 /* Demo1VC1.m in Sources */,
+				9FA397AD20B510A20065C372 /* EmitterVC.m in Sources */,
 				9FDCB13920ABBF4D00CCFFAF /* main.m in Sources */,
 				9FDCB12B20ABBF4B00CCFFAF /* AppDelegate.m in Sources */,
 				9FBACCB120B3BD5F0098522A /* clockVC.m in Sources */,
 				9F9B74CB20AD7D4F00A29357 /* Demo2VC2.m in Sources */,
+				9FBACCB820B3FC300098522A /* SJClockHourHand.m in Sources */,
 				9F9B74D320AD7DFD00A29357 /* Demo2ContactVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
